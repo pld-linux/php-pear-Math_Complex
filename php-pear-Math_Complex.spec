@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their operations
-Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby z³o¿one i operacje na nich
+Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8
 Release:	1
@@ -24,15 +24,16 @@ definitions for basic arithmetic functions, as well as trigonometric,
 inverse trigonometric, hyperbolic, inverse hyperbolic, exponential and
 logarithms of complex numbers.
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
 
 %description -l pl
-Klasy s³u¿±ca do reprezentacji i operacji na liczbach z³o¿onych.
+Klasy s³u¿±ce do reprezentacji i operacji na liczbach zespolonych.
 Zawieraj± definicje podstawowych dzia³añ arytmetycznych, jak
 i dzia³ania trygonometryczne, odwrotne do trygonometrycznych,
-hiperboliczne, odwrotne do hiperbolicznych, wyk³adnicze i logarytmiczne.
+hiperboliczne, odwrotne do hiperbolicznych, wyk³adnicze i
+logarytmiczne.
 
-Ta klasa ma w PEAR status: %{_status}
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
