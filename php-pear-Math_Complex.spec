@@ -25,7 +25,7 @@ definitions for basic arithmetic functions, as well as trigonometric,
 inverse trigonometric, hyperbolic, inverse hyperbolic, exponential and
 logarithms of complex numbers.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasy s³u¿±ce do reprezentacji i operacji na liczbach zespolonych.
