@@ -29,8 +29,8 @@ This class has in PEAR status: %{_status}.
 
 %description -l pl
 Klasy s³u¿±ce do reprezentacji i operacji na liczbach zespolonych.
-Zawieraj± definicje podstawowych dzia³añ arytmetycznych, jak
-i dzia³ania trygonometryczne, odwrotne do trygonometrycznych,
+Zawieraj± definicje podstawowych dzia³añ arytmetycznych, jak i
+dzia³ania trygonometryczne, odwrotne do trygonometrycznych,
 hiperboliczne, odwrotne do hiperbolicznych, wyk³adnicze i
 logarytmiczne.
 
