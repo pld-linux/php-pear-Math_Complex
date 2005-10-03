@@ -8,13 +8,14 @@ Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their 
 Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8.5
-Release:	2.1
+Release:	2.2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	dcaa0672d9f0b29232d906b87e0cd3bf
 URL:		http://pear.php.net/package/Math_Complex/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-pear-Math_TrigOp >= 1.0
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
