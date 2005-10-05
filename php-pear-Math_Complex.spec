@@ -2,13 +2,13 @@
 %define		_class		Math
 %define		_subclass	Complex
 %define		_status		beta
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their operations
 Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8.5
-Release:	2.2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
