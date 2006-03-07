@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	dcaa0672d9f0b29232d906b87e0cd3bf
 URL:		http://pear.php.net/package/Math_Complex/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear-Math_TrigOp >= 1.0
 Requires:	php-pear
