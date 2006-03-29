@@ -8,7 +8,7 @@ Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their 
 Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8.5
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
