@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their operations
-Summary(pl):	%{_class}_%{_subclass} - Klasy definiuj±ce liczby zespolone i operacje na nich
+Summary(pl.UTF-8):   %{_class}_%{_subclass} - Klasy definiujƒÖce liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8.5
 Release:	4
@@ -31,18 +31,18 @@ logarithms of complex numbers.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasy s≥uø±ce do reprezentacji i operacji na liczbach zespolonych.
-Zawieraj± definicje podstawowych dzia≥aÒ arytmetycznych, jak i
-dzia≥ania trygonometryczne, odwrotne do trygonometrycznych,
-hiperboliczne, odwrotne do hiperbolicznych, wyk≥adnicze i
+%description -l pl.UTF-8
+Klasy s≈Çu≈ºƒÖce do reprezentacji i operacji na liczbach zespolonych.
+ZawierajƒÖ definicje podstawowych dzia≈Ça≈Ñ arytmetycznych, jak i
+dzia≈Çania trygonometryczne, odwrotne do trygonometrycznych,
+hiperboliczne, odwrotne do hiperbolicznych, wyk≈Çadnicze i
 logarytmiczne.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -51,7 +51,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
