@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Math_Complex
-Summary:	%{_class}_%{_subclass} - Classes that define complex numbers and their operations
-Summary(pl.UTF-8):	%{_class}_%{_subclass} - Klasy definiujące liczby zespolone i operacje na nich
+Summary:	Math_Complex - Classes that define complex numbers and their operations
+Summary(pl.UTF-8):	Math_Complex - Klasy definiujące liczby zespolone i operacje na nich
 Name:		php-pear-%{_pearname}
 Version:	0.8.6
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
