@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Math_Complex
 Summary:	Math_Complex - Classes that define complex numbers and their operations
